@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>card</title>
+</head>
+<style>
+  .main{
+    height: 100vh;
+    width: 100wh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+
+   
+    
+  }
+  .heading{
+    display: flex;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  .please {
+    position : relative;
+    top: 20px;
+  }
+  .section{
+    display : flex ;
+    gap: 20px
+
+
+  }
+  .input{
+    width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .input2{
+    width: 70%;
+    height: 15vh;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .subSection{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .button {
+    background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  }
+  /*
+  .card{
+    height: 420px;
+    width: 300px;
+    border: 5px rgb(144, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+
+  }
+  .name{
+
+    padding: 6px;
+  }
+  .main-name{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: bold;
+  }
+  .button{
+  background-color: white;
+  color: black;
+  border: 2px solid #04AA6D; Green */
+
+</style>
+<body>
+  
+  <div class="main">
+
+   <form class = "form">
+     <div class="heading">
+
+      <h1> Contact Form</h1>
+      <p class = "please">Please complete the form below to reach us...</p>
+     </div>    
+
+<div class = " subSection">
+      <div class = "section">
+      <p>Your FullName :</p>
+      <input class="input" required placeholder="Your Name ....">
+
+      </div>
+      <div class = "section">
+        <p>Email address :</p>
+        <input class="input" required placeholder="Your email ....">
+  
+        </div>
+        <div class = "section">
+          <p>Phone Number :</p>
+          <input type="number"  required class="input" placeholder="Your number ....">
+    
+          </div>
+          <div class = "section">
+            <p>Email Subject :</p>
+            <input class="input"  required placeholder="Your subject ....">
+      
+            </div>
+
+
+  
+
+
+     <div>
+      <div class = "section">
+        <p>Your Message :</p>
+        <input class="input2" required placeholder="Your Message ....">
+  
+        </div>
+     </div>
+     <button onclick={submit()} class="button">Submit</button>
+ 
+          </form>
+
+    </div>
+
+
+
+
+<!--   
+
+<div class = "card">
+    <img src = " https://www.w3schools.com/howto/img_avatar.png" height="300px" width="300px" >
+
+    <div class = name>
+    <h2 class="main-name"> John deo </h2>
+  <h3> Software enginer</h3>
+  <button class="button"> pussy me dalo </button>
+</div>
+</div>
+<div class = "card">
+  <img src = " https://www.w3schools.com/howto/img_avatar2.png" height="300px" width="300px" >
+
+  <div class = name>
+  <h2 class="main-name"> leo deo </h2>
+<h3> Software enginer</h3>
+<button class="button"> boobs daba lo </button>
+</div>
+</div>
+
+<div class = "card">
+  <img src = " https://www.w3schools.com/howto/img_avatar2.png" height="300px" width="300px" >
+
+  <div class = name>
+  <h2 class="main-name"> leo deo </h2>
+<h3> Software enginer</h3>
+<button class="button">gaad me Lelo </button>
+</div>
+</div>
+
+<div class = "card">
+  <img src = " https://www.w3schools.com/howto/img_avatar.png" height="300px" width="300px" >
+
+  <div class = name>
+  <h2 class="main-name"> John deo </h2>
+<h3> Software enginer</h3>
+<button class="button"> mu me Lelo </button>
+</div> 
+
+</div> -->
+
+  </div>
+  <script>
+    function submit(){
+          alert(" subbmited Sucessfullly....")
+    }
+  </script>
+
+</body>
+</html>
